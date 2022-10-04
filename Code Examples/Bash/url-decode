@@ -1,0 +1,6 @@
+# !/bin/bash
+# url decode using sed
+
+# url decode
+echo -e $(echo "Some%20String" | sed 's/+/ /g;s/%\(..\)/\\x\1/g;')
+# output : Some String
