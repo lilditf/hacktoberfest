@@ -1,0 +1,18 @@
+Bug Bounty tips
+
+Bagi kalian yg sering nemuin laravel debugernya nyala kayak foto yg pertama jngan diskip bisa jadi celahnya ada disitu dan juga bisa dimanfaatin jadi bug bounty.
+
+POCnya :
+
+1. klik tanda folder yg disamping tanda ^  cek ss kedua
+2. Kemudian pada bagian METHOD pilih POST setelah itu klik search
+3. Bila sudah nanti akan ada banyak pilihan, dan cari aja yg url /login, setelah itu klik urlnya.
+4. Terus nanti bakal muncul di bar debugernya, masuk kebagian  " Request " setelah itu cari " request_request " atau " $_POST " ini suka ada yg beda beda tetapi biasanya ada salah satu di dua itu.
+5. Kemudian klik aja tanda [ > ] dan boom, biasanya disitu ada akun admin yg baru aja login.
+6. tinggal cari halaman loginya terus login deh.
+
+Bisa juga pake dork misal : intext:PHP DEBUGBAR STACK DATA inurl:/login , Selebihnya bisa dikembangin sendiri
+
+BTW ini kemarin yg gw dapetin di id-mpl sekarang udh difix sama mereka cuma gada respon dari moontod.
+
+Yaudah gitu aja semoga bermanfaat.
