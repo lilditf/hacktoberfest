@@ -17,3 +17,6 @@ head -n1 files.txt
 
 #Get last line from files
 tail -n1 files.txt
+
+#Create 10k dummy .txt files with length 10 char
+for list_name in $(pwgen -A0 10 10 | awk '{print $0".txt"}'); do touch "${list_name}"; echo "Create : ${list_name}"; done
