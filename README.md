@@ -14,7 +14,7 @@ Hacktoberfest is open to everyone in our global community! a month-long celebrat
 * Clone your fork down to your local machine
 
     ```sh
-    git clone https://github.com/your-username/hacktoberfest.git
+    git clone https://github.com/lilditf/hacktoberfest.git
     ```
 
 * Create a branch
